@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+$colorPink: rgba(233, 47, 72, 1);
+$colorYellow:rgba(255, 200, 57, 1);
+
+*{
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.orderList{
+    margin:3% 3% 0% 5%;
+    padding: 2%;
+}
+.orderComponent{
+    margin: 20px;
+}
+
+.orderFlex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:3% 3% 0% 5%;
+    padding: 2%;
+    align-items: center;
+    font-style: italic;
+    
+    img{
+        width: 15%;
+        height: 15%;
+    }
+    button{
+        font-size: 24px;
+        color: $colorPink;
+        background-color: $colorYellow;
+        width: 172px;
+        height: 42px;
+        border: none;
+    }
+    
+    .goToCard{
+        background-color: $colorRed;
+        color:rgb(255, 255, 255);
+    }
+
+    h3{
+        text-align: center;
+        font-style: normal;
+        font-size: 23px;
+        margin: 3% 5% 3% 7%;
+        padding-bottom: 3%;
+        border-bottom: $colorPink 3.5px solid;
+    }
+
+    .buttonOrder{
+        height: 3em;
+        overflow: scroll;
+        background-color: #e92f48;
+        border: transparent;
+        width: 200px;
+        font-size: large;
+        color: white;
+        font-family: "Alata", sans-serif;
+      }
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+
+    th{
+        padding-left: 0px;
+        font-style: italic;
+        font-size: 20px;
+        margin: 10px;
+        color: $colorPink;
+        letter-spacing: 2px;
+    }
+
+    span{
+        color: rgba(126, 131, 137, 1);
+    }
+
+  }
+
+
+ td, table{
+    border-bottom: 3px solid  rgb(241, 241, 241);
+    margin: -2px;
+    padding: 18px  0px 18px 0px;
+  } 
+
+.table{
+   color: $colorPink;
+   display: flex;
+   flex-direction: row;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    .orderNumber{
+        background-color: #e92f48;
+        padding: 3px;
+        margin-right: 8px;
+        width: 30px;
+        height: 30px;
+        color: white;
+    }
+}

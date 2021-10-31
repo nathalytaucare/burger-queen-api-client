@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+
+$colorWhite: rgb(255, 255, 255);
+$colorRedPink: rgba(233, 47, 72, 1);
+$colorGreen: rgb(94,201,110);
+$colorGray: rgba(240, 240, 240, 1);
+
+
+    .logIn-header {
+      position: absolute;
+      left: 100px;
+      display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+      font-family: 'ABeeZee', sans-serif;
+    }
+    
+    .logIn-form{
+      display: flex;
+      flex-direction: column;
+      flex-wrap:wrap;
+      align-items: flex-end;
+      font-size: 27px;
+
+      p{
+        align-self:flex-start;
+        margin-left: 10px;
+        font-size: 27px;
+      }
+
+      .inputLogIn{
+        display: flex;
+        flex-direction: row;
+        padding: 45px;
+        width: 600px;
+        height: 90px;
+        padding: 27px;
+        border-radius: 30px;
+        background: $colorGray;
+        margin: 15px;
+
+        input {
+         height: 100%;
+         width: 100%;
+         margin-left: 10px;
+         font-size: 27px;
+         outline: none;
+         background-color: transparent;
+         border: 0;
+        }
+      }
+
+      .logIn-button{
+        font-size: 27px;
+        font-family: sans-serif;
+        margin:45px;
+        color: $colorWhite;
+        background: $colorRedPink;
+        border-radius: 15px;
+        padding: 20px 50px 20px 50px;
+      }
+  
+    }
+
+    .bQ-logIn{
+      margin: 1px;
+      width: 18em;
+      align-self: flex-end;
+    }
+
+    .bQ-combo{
+      order: 0;
+      flex: 0 1 auto;
+      align-self: flex-end;
+      width: 30em;
+    }
+    .fa-eye, .fa-eye-slash{
+      color:rgba(128, 128, 128, 0.849)
+    }

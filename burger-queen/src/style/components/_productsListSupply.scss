@@ -1,0 +1,123 @@
+
+.productSupplyHeader{
+    display:grid;
+    grid-template-columns: 8fr 5fr;
+    margin: 3% 5% 5% 3%;
+    text-align: center;
+    align-items: center;
+    border-bottom: rgba(233, 47, 72, 1) solid;
+    p{
+        font-size:1.2em;
+        padding: 5%;
+    }
+
+}
+
+.productsListSupply button{ 
+    margin-left: 25px;
+    padding: 10px;
+    font-size: 15px;
+    color: #e92f48;
+    background-color: #ffc839;
+    width: 172px;
+    border: none;
+}
+ 
+.productSupply{
+    display:grid;
+    grid-template-columns: 6fr 6fr;
+    margin: 2% 5% 2% 5%;
+    text-align: center;
+    align-items: center;
+    font-size:1em;
+
+    button{
+        background-color: transparent;
+        border: none;
+        padding: 0px;
+        
+    }
+    .supplyWrap{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .counterSupply{
+        display: grid;
+        // grid-template-columns: 3fr 3fr;
+        width: 40vw;
+        justify-items: center;
+        align-items: center;
+        text-align: right;
+        
+        .buttonWrap{
+            display: flex;
+            align-self: left;
+            margin-left:2em;
+            i{
+                color: rgba(233, 47, 72, 1);
+                font-size:1.3em;
+                margin-left: 20%;
+            }
+            .fa-trash-alt{
+                margin-right:5em;
+            }
+        }
+    }
+    img{
+        width: 3em;
+    }
+
+}
+.Modal {
+    position: absolute;
+    top: 18em;
+    left: 5em;
+    right: 5em;
+    // bottom: 22em;
+    background-color: white;
+    border: rgba(128, 128, 128, 0.719) solid;
+    outline: none;
+    i{
+        color:rgba(233, 47, 72, 1);
+        font-size:1.5em;
+        align-items: right;
+        margin-top:3%;
+    }
+    .productsInfo{
+        input{
+            outline:transparent;
+            border:none;
+        }
+    }
+}
+
+.pagination {
+    margin: 5% auto 5% auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+    justify-content: center;
+  }
+  .pagination > .active > a{
+    background-color:  #ffc839;
+    border-color:  #ffc839;
+    color: #fff;
+  }
+  .pagination > li > a{
+    border: 1px solid  #ffc839;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color:  #ffc839;
+    border-color:  #ffc839;;
+    outline: none ;
+  }
+  .pagination > li > a, .pagination > li > span{
+    color: rgba(233, 47, 72, 1);
+  }
+  .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+  }

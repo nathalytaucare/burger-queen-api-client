@@ -1,0 +1,89 @@
+*{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+}
+
+.CardEmployees{
+    margin:3% 3% 0% 5%;
+    padding: 2%;
+
+    .logoBQ{
+        width: 100px;
+        margin-left: 80%;
+        margin-bottom: 0px;
+    }
+
+    img{
+        width: 20%;
+        height: 50%;
+    }
+
+    .name{
+        font-size: 30px;
+        color: rgba(150, 155, 159, 1);
+        margin-bottom: 30px;
+    }
+
+    .addCard{
+        color: rgba(233, 47, 72, 1);
+    }
+
+    .CardEmploy {
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+
+        // section{
+        //     margin-left: 80px;
+        // }
+
+        .editAndDelete{
+            width: 20%;
+            flex-direction: row;
+            align-self: center;
+           margin-left: 30px;
+        }
+        // i{
+        //     // height: 2em;
+        //     // margin: 2em;
+        //     font-size:2em;
+        // }
+        .fa-edit, .fa-trash-alt{
+            font-size:1.8em;
+            color:rgba(233, 47, 72, 1);
+            margin-left: 25%;
+        }
+        .img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 0px;
+        }
+    }
+    .userWrapper{
+
+        width: 280px;
+        // padding-top: 5%;
+        margin-left: 80px;
+        align-self: center;
+        p{
+            width: 280px;
+        }
+    }
+    .newUserWrapper{
+        border: grey solid;
+        border-width: 2px;
+        width: 45%;
+        text-align: center;
+        margin:3% auto ;
+        padding:1%;
+        background-image: url('../../images/pattern3.png');
+        p{
+            margin:2%;
+            font-weight: bold;
+        }
+        button{
+            margin:2%;
+        }
+    }
+}

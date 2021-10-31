@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+
+$colorYellow: rgb(255,200,57);
+$colorRed: rgb(233,47,72);
+$colorGreen: rgb(94,201,110);
+
+
+.home{
+    width: 100vw;
+    height: 80vh;
+    background-size:100vw 100vh;
+    background-repeat:no-repeat;
+    padding: 5%;
+    font-family: 'Baloo Bhai 2', cursive;
+    z-index: -1;
+
+    article{
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+
+}
+.main-home{
+    display: flex;
+    flex-direction: column;
+}
+#hamburguer-home{
+    width: 75%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+#bq-home{
+    width: 20%;
+    height: 15%;
+}
+.buttons{
+    button{
+        // width: 38%;
+        height: 20vh;
+        background-size:contain;
+        background-repeat:no-repeat;
+        border: transparent;
+        border-radius: 40%;
+        background-color:transparent;
+        font-weight: bold;
+        padding:3%;
+        font-size: 200%;
+        margin-left:2%;
+        font-family: 'Baloo Bhai 2', cursive;
+        background-color:rgb(240,240,240);
+ 
+    }
+    img{
+        width:100px;
+        margin:auto;
+    }
+}

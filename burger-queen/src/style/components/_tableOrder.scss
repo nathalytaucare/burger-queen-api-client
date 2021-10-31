@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+$colorYellow: rgb(255,200,57);
+$colorRed: rgb(233,47,72);
+$colorGreen: rgb(94,201,110);
+
+.tableOrder{
+    
+    h2{
+        font-family: 'ABeeZee', sans-serif;
+        font-size: 1em;
+        margin: 3% 0% 3% 7%;
+        padding-bottom:3%;
+        text-decoration: underline;
+        text-decoration-color: $colorRed;
+        text-decoration-thickness: 07px;
+    }
+   
+}
+.tableOrderHeader{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:3% 3% 0% 5%;
+    align-items: center;
+
+    img{
+        width: 10%;
+        height: 10%;
+    }
+    input{
+        height:2em;
+        overflow: scroll;
+        background-color: $colorRed ;
+        border:transparent;
+        width: 100%;
+        font-size: x-large;
+        color:white;
+        font-family: 'Alata', sans-serif;
+        padding-left:3%;
+    }
+    input::placeholder {
+        color: rgba(255, 255, 255, 0.795);
+    }
+    option{
+        font-size: medium;
+    }
+
+
+}
+.menu{
+    text-align: center;
+    margin-top:3%;
+
+    button{
+        border:transparent;
+        border-radius: 45%;
+        margin:1%;
+    }
+}
+.menuImg{
+    height:120px;
+    width:110px;
+    justify-content: center;
+    text-align: center;
+}
+.productItem{
+    display: grid;
+    grid-template-columns: 5fr 3fr 3fr;
+    font-family: 'ABeeZee', sans-serif;
+    margin: 0% 5% 3% 5%;
+    text-align: center;
+    align-items: center;
+
+    img{
+        height:6em;
+        width: 6em;
+    }
+    .checkbox-round {
+        width: 1.3em;
+        height: 1.3em;
+        background-color: white;
+        border-radius: 50%;
+        vertical-align: middle;
+        border: 2px solid rgb(77, 77, 77);
+        -webkit-appearance: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .counter{
+        font-style: normal;
+    }
+    .checkbox-round:checked {
+        background-color: $colorGreen;
+    }
+    .counterWrap{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        button{
+            border-color: black;
+            width: 18px;
+            height: 18px;
+            line-height: 18px;
+            padding-top:none;
+            font-size: medium;
+            border-radius: 5px;
+            
+        }
+    }
+}
+.nextPage{
+    height:3em;
+    overflow: scroll;
+    background-color: $colorRed ;
+    border:transparent;
+    width: 6em;
+    font-size: x-large;
+    color:white;
+    font-family: 'Alata', sans-serif;
+}
+.bottomOrderWrap{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 8%;
+    align-items: center;
+
+    textarea{
+        resize: none;
+        width:50%;
+        font-family: 'ABeeZee', sans-serif;
+        font-size: medium;
+        border: grey solid;
+        border-width: 1px;
+        outline: none;
+    }
+}
+
+.errorName{
+    color: rgb(216, 0, 0);
+    background-color: $colorYellow;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+
+    p{
+        margin-left: 40%;
+        height: 2.2em;
+        align-self: center;
+
+    }
+
+}
+

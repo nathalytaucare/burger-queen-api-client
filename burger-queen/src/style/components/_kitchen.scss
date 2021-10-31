@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+$colorYellow: rgb(255,200,57);
+$colorRed: rgb(233,47,72);
+$colorGreen: rgb(94,201,110);
+
+.tableOrder{
+
+    width: 100vw;
+    height: 100vh;
+    // text-align: center;
+    // justify-content: center;
+    // align-items: center;
+    
+}
+.orderToKitchenHeader{
+    width: 100%;
+    text-align: right;
+    img{
+        width: 5em;
+        margin: 3% 3% 0% 0%;
+    }
+}
+.orderToKitchen{
+    background-color:rgb(254, 243, 207);
+    border: 20px solid ;
+    border-image: url('../../images/burgerBackground.png') 45 round;
+    width: 80%;
+    margin: 2% auto;
+    padding: 3%;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
+    header{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        text-align: right;
+    }
+    .tableNumber{
+        font-family: 'ABeeZee', sans-serif;
+        font-style: italic;
+        color:black;
+        font-size: 1.5em;
+        align-self: center;
+    }
+    .timeWraper, .alertWrap{
+        display:flex;
+        justify-content: space-between;
+    }
+    .timeWraper{
+        flex-direction:column;
+    }
+    .alertWrap{
+        flex-direction:row;
+
+        button{
+            display:flex;
+            width: 10em;
+            height:3em;
+            background-color: $colorGreen;
+            border:none;
+            border-radius: 20px;
+            justify-content: right;
+            padding-left:7%;
+            align-content: center;
+            align-items: center;
+        }  
+        p{
+            font-size:20px;
+            padding-left:2%;
+        }
+        img{
+            width:1.8em;
+        }
+    }
+    .bottomOrderSection{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        textarea{
+            background-color: rgba(255, 199, 57, 0.541);
+            border:white solid;
+            resize:none;
+            width:60%;
+            font-size:0.8em;
+            padding:1%;
+            outline:none;
+            font-family: 'ABeeZee', sans-serif;
+        }
+        button{
+            width: 10em;
+            height:3em;
+            background-color: $colorGreen;
+            border:none;
+            border-radius: 20px;
+            text-align: center;
+            padding:0%;
+            color:white;
+            font-family: 'ABeeZee', sans-serif;
+            font-size:0.8em;
+        }
+    }
+    .productsOrdered{
+        margin-bottom:3%;
+    }
+
+}

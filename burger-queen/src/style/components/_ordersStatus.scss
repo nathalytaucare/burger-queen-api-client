@@ -1,0 +1,94 @@
+
+$colorGreen: rgba(0, 231, 92, 1);
+$colorBlack: rgba(66, 66, 66, 1);
+$colorRedPink: rgba(233, 47, 72, 1);
+$colorWhite: rgb(255, 255, 255);
+$colorYellow: rgb(255,200,57);
+
+
+*{
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.orderStatusHeader{
+    margin:5% 5% 5% 5%;
+    font-style: italic;
+}
+
+.orderStatusHeader > img{
+    padding: 2%;
+    width: 15%;
+    height: 15%;
+    font-style: italic;
+}
+
+.tableStatus, .table, .tableCard{
+    margin:5% 5% 5% 5%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tableCard{
+    border-bottom: 1px solid rgb(202, 202, 202);
+    .statusWrapper{
+        display: flex;
+        button{
+            border:none;
+            margin-left: 15%;
+            background-color: transparent;
+            img{
+                width:1em;
+            }
+            
+        }
+    }
+    i{
+        font-size:1.3em;
+        color: $colorRedPink;
+    }
+}
+.tableStatus > h2 {
+    margin-right: 0px;
+    color: $colorPink;
+    font-size: 25px;
+}
+
+.number{
+    background-color: $colorRedPink;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    margin-right: 20px;
+}
+
+.delivered,.pending,.delivering {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    font-family: "Alata", sans-serif;
+}
+.delivered{
+    background-color: $colorGreen;
+    color: $colorBlack;
+}
+.pending{
+    background-color: $colorRedPink;
+    color: $colorWhite;
+}
+.delivering{
+    background-color: rgb(255, 183, 50);
+    color: $colorBlack;
+}
+.ordersTable{
+    input{
+        outline:none;
+        border:none;
+    }
+}
+.ordersInfo{
+    input{
+        outline:none;
+        border:none;
+    }
+}

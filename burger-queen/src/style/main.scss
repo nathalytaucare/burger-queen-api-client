@@ -1,0 +1,76 @@
+@import "components/home";
+@import "components/errorLog";
+@import "components/logIn";
+@import "components/tableOrder";
+@import "components/order";
+@import "components/ordersStatus";
+@import "components/AdminEmployees";
+@import "components/productsListSupply";
+@import "components/navBar";
+@import "components/dropdown";
+@import "components/kitchen";
+
+@mixin basicConfig {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+*{
+    @include basicConfig()
+}
+.home{
+    background-image: url('../images/homeBG.png');
+}
+
+
+.logIn{
+    background-image: url('../images/fontLogIn.svg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+}
+
+.Modal{
+   padding: 2%; 
+    text-align: center;
+
+    .fa-window-close{
+       float: right;
+    }
+   h3{
+       font-size: 1.4em;
+       margin-top: 8%;
+       margin-bottom: 1%;
+   }
+   p{
+    font-size: 1.2em;
+    color: rgb(133, 133, 133);
+   }
+
+   button{
+       padding: 1.0em ;
+       margin-top: 3%;
+       margin-left: 4%;
+       font-size: 18px;
+       border: none;
+       border-radius: 15px;
+   }
+
+   .btnDelete{
+       background-color: rgba(233, 47, 72, 1); ;
+       color: white;
+   }
+   
+   .cancel {
+    background-color: rgb(133, 133, 133);
+    color: white;
+    }
+}
