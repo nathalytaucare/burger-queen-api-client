@@ -1024,7 +1024,7 @@ td, table {
 }
 
 .logIn {
-  background-image: url("../images/fontLogIn.svg");
+  /* background-image: url("../images/fontLogIn.svg"); */
   background-size: cover;
   height: 100vh;
   display: -webkit-box;

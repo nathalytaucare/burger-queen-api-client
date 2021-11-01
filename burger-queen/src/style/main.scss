@@ -22,14 +22,16 @@
     @include basicConfig()
 }
 .home{
-    background-image: url('../images/homeBG.png');
+    background-image: url('https://s1.1zoom.me/big0/451/Hamburger_Tomatoes_French_fries_Knife_Black_576869_1280x853.jpg');
+    background-size: cover;
+    height: 110vh;
 }
 
 
 .logIn{
-    background-image: url('../images/fontLogIn.svg');
+    background-image: url('https://s1.1zoom.me/b5050/466/Hamburger_French_fries_Vegetables_Black_background_540048_3840x2400.jpg');
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;

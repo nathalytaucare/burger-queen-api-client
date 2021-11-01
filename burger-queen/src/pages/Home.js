@@ -1,6 +1,6 @@
 import React, { useEffect,useState } from 'react';
-import bigHamburger from '../images/bigHamburger.png';
-import burgerQueenLogo from '../images/burger-queen-logo.png';
+// import bigHamburger from '../images/bigHamburger.png';
+import logoBurger from '../images/logoBurger.png';
 import '../style/main.scss'
 import orders from '../images/hamburger.svg'
 import kitchen from '../images/chef.svg'
@@ -29,8 +29,7 @@ function Home(){
     return(
       <section className="home">
         <main className="main-home">
-          <img src={burgerQueenLogo} id="bq-home" alt="burgerQueenLogo" />
-          <img src={bigHamburger} id="hamburguer-home" alt="hamburger" />
+          <img src={logoBurger} id="bq-home" alt="burgerQueenLogo" />
           <article className="buttons">
             <Link to="/tableOrder">
 						  <button><img alt="orders" src={orders}></img>PEDIDOS</button>

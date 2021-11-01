@@ -1,12 +1,12 @@
 .navbar {
-    background: rgb(255, 199, 57);
+    background: rgb(41, 41, 41);
     height: 80px;
     display:grid;
     grid-template-columns: 2fr 5fr  ;
     align-items: center;
     font-size: 1.2rem;
     img{
-        width: 50px;
+        width: 190px;
     }
 }
   
@@ -43,7 +43,7 @@
   }
   
   .nav-links:hover {
-    background-color: rgb(255, 153, 0);
+    background-color: rgb(187, 98, 98);
     border-radius: 4px;
     transition: all 0.2s ease-out;
   }
@@ -78,7 +78,7 @@
 }
 
 .fa-sign-out-alt:hover {
-  background-color: rgb(255, 153, 0);
+  background-color:  rgb(187, 98, 98);
   transition: all 0.2s ease-out;
   padding: 5px;
   border-radius: 10px;

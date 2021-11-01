@@ -10,17 +10,25 @@ $colorYellow: rgb(255,200,57);
     font-family: 'ABeeZee', sans-serif;
 }
 
-.orderStatusHeader{
-    margin:5% 5% 5% 5%;
+.orderStatusHeader {
+    margin:2%;
     font-style: italic;
+    img{
+        width: 3%;
+        height: 3%;
+        font-style: italic;
+    }
+    h1{
+        font-family: 'ABeeZee', sans-serif;
+        font-size: large;
+    }
+    .title{
+        font-family: 'ABeeZee', sans-serif;
+        font-size: x-large;
+        display: inline-block;
+    }
 }
 
-.orderStatusHeader > img{
-    padding: 2%;
-    width: 15%;
-    height: 15%;
-    font-style: italic;
-}
 
 .tableStatus, .table, .tableCard{
     margin:5% 5% 5% 5%;
@@ -52,7 +60,7 @@ $colorYellow: rgb(255,200,57);
 .tableStatus > h2 {
     margin-right: 0px;
     color: $colorPink;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .number{
@@ -64,7 +72,7 @@ $colorYellow: rgb(255,200,57);
 
 .delivered,.pending,.delivering {
     width: 100px;
-    padding: 10px;
+    padding: 5px;
     border: none;
     font-family: "Alata", sans-serif;
 }

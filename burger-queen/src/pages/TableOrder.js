@@ -4,7 +4,6 @@ import { getProducts } from '../Services/products.js'
 import {useHistory} from 'react-router-dom';
 import MenuOrderProducts from '../components/menuOrders/MenuOrderProducts';
 import ProductItem from '../components/menuOrders/ProductItem';
-import logo from '../images/burger-queen-logo.png';
 import ReactPaginate from 'react-paginate';
 
 
@@ -96,7 +95,6 @@ function TableOrder(props) {
               </input>
               <p className="errorName">{messageName}</p>
             </nav>
-            <img src={logo} alt="logo"></img>
           </header>
           <MenuOrderProducts setTypeProduct={setTypeProduct}/>
           <section className="description">

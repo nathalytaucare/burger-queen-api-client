@@ -1,4 +1,4 @@
-import logo from '../images/burger-queen-logo.png';
+import logoPedidos from '../images/logoPedidos.png';
 import '../style/main.scss'
 import StatusListTable from '../components/clientOrders/StatusListTable'
 import { useEffect, useState } from 'react';
@@ -29,8 +29,8 @@ function OrderStatus() {
     return (
     <section className="OrderStatus">
         <section className="orderStatusHeader">
-            <img src={logo} alt="logo"></img>
-            <h1>PEDIDOS</h1>
+            <img src={logoPedidos} alt="logo"></img>
+            <h1 className="title" >PEDIDOS</h1>
             <section className="table">
             <h2>Mesas</h2>
             <h2>Estado del pedido</h2>

@@ -1,7 +1,6 @@
 import {postRequest} from '../Services/auth.js';
 import React, { useState} from 'react';
-import logoBurgerQueen from '../images/BQ-logo.svg';
-import comboBQ from '../images/burger-combo.png';
+import logoBurger from '../images/logoBurger.png';
 import '../style/main.scss';
 import userIcon from '../images/userIcon.png'
 import passwordIcon from '../images/passwordIcon.png'
@@ -46,7 +45,7 @@ function LogIn (){
       return (
         <div className="logIn" >
         <header className="logIn-header">
-        <img src={logoBurgerQueen} className="bQ-logIn" alt="logo" />
+        <img src={logoBurger} className="bQ-logIn" alt="logo" />
           <form className="logIn-form" onSubmit={traerDatos}>
             <label>
               Correo electrónico:
@@ -74,7 +73,7 @@ function LogIn (){
             <button className="logIn-button" > INGRESAR </button>
           </form>
         </header>
-        <img src={comboBQ} className="bQ-combo" alt="logo" />
+
       </div>
 
     );

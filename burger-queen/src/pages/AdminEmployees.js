@@ -1,4 +1,3 @@
-import logoBurgerQueen from '../images/BQ-logo.svg';
 import '../style/main.scss';
 import Employees from '../components/employees/EmployesCard'
 import { getUsers} from '../Services/users';
@@ -55,7 +54,6 @@ function AdminEmployees(){
 
     return(
     <section className="CardEmployees">
-        <img src={ logoBurgerQueen } className="logoBQ" alt="logo"></img>
         <section>
             <h1 className="name"> Admin </h1>
             <p className="addCard" onClick={() => fxNexUser()}> + Agregar Empleado</p>

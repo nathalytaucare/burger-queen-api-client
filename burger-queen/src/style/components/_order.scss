@@ -23,15 +23,10 @@ $colorYellow:rgba(255, 200, 57, 1);
     padding: 2%;
     align-items: center;
     font-style: italic;
-    
-    img{
-        width: 15%;
-        height: 15%;
-    }
     button{
         font-size: 24px;
-        color: $colorPink;
-        background-color: $colorYellow;
+        color: black;
+        background-color: rgb(211, 210, 210);
         width: 172px;
         height: 42px;
         border: none;

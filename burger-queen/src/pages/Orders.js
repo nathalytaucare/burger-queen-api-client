@@ -1,4 +1,4 @@
-import logo from '../images/burger-queen-logo.png';
+
 import '../style/main.scss'
 import {Link} from 'react-router-dom';
 import OrderList from '../components/clientOrders/OrderList'
@@ -53,7 +53,6 @@ function Order(props) {
                     <button className="goToCard"> ← Carta </button>
                 </Link>
                 </section>
-                <img src={logo} alt="logo"></img>
             </section>
             <section className="orderFlex">
                 <h2>La Orden :  </h2>
